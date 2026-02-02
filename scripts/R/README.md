@@ -9,6 +9,16 @@ Inputs:
 
 Outputs:
 - results/figures/upset_venn/*.png
+# GO enrichment visualization (proteins)
+Run:
+Rscript scripts/R/02_GO_enrichment_visualization_proteins.R
+
+Input:
+- data/GO_enrichment.xlsx
+
+Outputs:
+- results/figures/go_enrichment/*.pdf and *.png
+
 
 
 
