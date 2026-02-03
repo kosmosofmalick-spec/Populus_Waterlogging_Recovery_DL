@@ -31,5 +31,16 @@ Outputs:
 - results/figures/shap_protein/*.png
 - (optional) results/figures/exploratory/boxplot_MWR_vs_MW_by_tag.png
 
+# Sex dimorphism (scale-free contrasts)
+Run:
+python scripts/Python/04_sex_dimorphism_scale_free_contrasts.py
+
+Input:
+- data/Data_to_analyse.xlsx
+
+Outputs:
+- results/tables/sex_dimorphism/*.csv
+- results/tables/sex_dimorphism/sex_dimorphism_outputs.xlsx
+
 
 
