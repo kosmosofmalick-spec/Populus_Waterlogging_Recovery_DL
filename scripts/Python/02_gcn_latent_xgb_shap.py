@@ -58,7 +58,7 @@ EPOCHS = 150
 LR = 0.01
 WEIGHT_DECAY = 5e-4
 
-FEATURE_COLS = ["FC12_vs_FW12", "MC12_vs_MW12", "FWR_vs_FW", "MWR_vs_MW"]
+FEATURE_COLS = ["FC_vs_FW", "MC_vs_MW", "FWR_vs_FW", "MWR_vs_MW"]
 TARGET_CLASSES = ["Waterlogging", "Recovery", "Waterlogging+SexDimorphism"]
 
 
