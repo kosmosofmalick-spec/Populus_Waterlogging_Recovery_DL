@@ -39,6 +39,18 @@ Requires outputs from:
 
 Outputs:
 - results/figures/sex_dimorphism/*.png
+# KEGG Z-score heatmap
+Run:
+Rscript scripts/R/05_kegg_zscore_heatmap.R
+
+Input:
+- data/KEGG_Zscore.xlsx  (columns: FileName, Variable, Zscore)
+
+Outputs:
+- results/figures/kegg/KEGG_Zscore_Heatmap.pdf
+- results/figures/kegg/KEGG_Zscore_Heatmap.png
+
+
 
 
 
