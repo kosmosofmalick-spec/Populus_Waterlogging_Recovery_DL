@@ -18,6 +18,18 @@ Input:
 
 Outputs:
 - results/figures/go_enrichment/*.pdf and *.png
+# Latent screening + sex-dimorphism heatmaps (proteins)
+Run:
+Rscript scripts/R/03_latent_screening_sex_dimorphism_proteins.R
+
+Input:
+- data/Proteomics_with_Latent.xlsx
+
+Outputs:
+- results/tables/latent_screening/Selected_DECREASED_*.xlsx
+- results/tables/latent_screening/Selected_INCREASED_*.xlsx
+- results/figures/heatmaps/latent_screening/Heatmap_*.png
+
 
 
 
