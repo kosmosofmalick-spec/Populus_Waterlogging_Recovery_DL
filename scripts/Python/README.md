@@ -9,5 +9,27 @@ Inputs:
 
 Outputs:
 - results/tables/gnn/GNN_input_matrix.xlsx
+# Script 02 — GCN → latent → XGBoost → SHAP
+Run:
+python scripts/Python/02_gcn_latent_xgb_shap.py
+
+Input:
+- results/tables/gnn/GNN_input_matrix.xlsx
+
+Outputs:
+- results/tables/gnn/GNN_latent_matrix.xlsx
+- results/figures/shap_latent/*.png
+
+# Script 03 — Random Forest → SHAP (protein features) + optional boxplot
+Run:
+python scripts/Python/03_rf_shap_plus_boxplot.py
+
+Input:
+- results/tables/gnn/GNN_input_matrix.xlsx
+
+Outputs:
+- results/figures/shap_protein/*.png
+- (optional) results/figures/exploratory/boxplot_MWR_vs_MW_by_tag.png
+
 
 
