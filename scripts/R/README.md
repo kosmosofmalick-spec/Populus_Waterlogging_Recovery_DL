@@ -30,6 +30,17 @@ Outputs:
 - results/tables/latent_screening/Selected_INCREASED_*.xlsx
 - results/figures/heatmaps/latent_screening/Heatmap_*.png
 
+# Sex dimorphism figures (morpho-physiological-scale-free)
+Run:
+Rscript scripts/R/04_sex_dimorphism_scale_free_figures.R
+
+Requires outputs from:
+- scripts/Python/04_sex_dimorphism_scale_free_contrasts.py
+
+Outputs:
+- results/figures/sex_dimorphism/*.png
+
+
 
 
 
